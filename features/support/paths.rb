@@ -24,6 +24,7 @@ module NavigationHelpers
     #     user_profile_path(User.find_by_login($1))
       
     when /^The edit page for "(.*)"$/i then "/movies/#{Movie.find_by_title($1).id}/edit"
+    when /^the Similar Movies page for "(.*)"/i then "/movies/#{Movie.find_by_title($1).id}/same_director"
     
 
     else
