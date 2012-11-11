@@ -14,7 +14,9 @@ group :development, :test do
   gem 'launchy'
   gem 'rspec-rails'
   gem 'simplecov'
-  gem 'nokogiri', '~> 1.5.5'
+  gem 'nokogiri'
+  gem 'factory_girl'
+  gem 'factory_girl_rails'
   #added for version error
   gem 'linecache19', :git => 'git://github.com/mark-moseley/linecache'
   gem 'ruby-debug-base19x', '~> 0.11.30.pre4'
